@@ -8,6 +8,7 @@ public class HelloServlet extends javax.servlet.http.HttpServlet {
             try{
                 response.getWriter().println("<h2>Hello Hu ermao</h2>");
                 response.getWriter().println(new Date().toLocaleString());
+                response.getWriter().println("don't leave me");
             }catch(Exception e){
                 e.printStackTrace();
             }
